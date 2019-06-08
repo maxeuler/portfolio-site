@@ -112,7 +112,7 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/maxeuler/Desktop/SoftwareDev/portfolio/components/Header.js";
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\twidth: 100%;\n\tposition: absolute;\n\tborder-bottom: 5px solid ", ";\n\tcolor: white;\n\tdisplay: flex;\n\tjustify-content: space-between;\n\tpadding: 1rem 2rem;\n\tfont-size: 2rem;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\twidth: 100%;\n\tborder-bottom: 5px solid ", ";\n\tcolor: white;\n\tdisplay: flex;\n\tjustify-content: space-between;\n\tpadding: 1rem 2rem;\n\tfont-size: 2rem;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -132,19 +132,19 @@ var Header = function Header(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledHeader, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 16
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 17
     },
     __self: this
   }, "Max Euler"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 18
     },
     __self: this
   }));
@@ -260,7 +260,7 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/maxeuler/Desktop/SoftwareDev/portfolio/components/Page.js";
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  html {\n    font-size: 10px;\n    height: 100%;\n    box-sizing: border-box;\n  }\n  *, *:before, *:after {\n    box-sizing: inherit;\n  }\n  body {\n    margin: 0;\n    padding: 0;\n    height: 100%;\n    font-family: sans-serif;\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  html {\n    font-size: 10px;\n    height: 100%;\n    box-sizing: border-box;\n  }\n  *, *:before, *:after {\n    box-sizing: inherit;\n  }\n  body {\n    margin: 0;\n    padding: 0;\n    height: 100%;\n    font-family: sans-serif;\n    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('../static/la3.jpg');\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: cover; \n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -282,19 +282,19 @@ var Page = function Page(props) {
     theme: theme,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 31
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(GlobalStyle, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 33
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 34
     },
     __self: this
   }), props.children));

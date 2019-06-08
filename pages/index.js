@@ -1,5 +1,3 @@
-import Landing from '../components/Landing';
-
-const Home = props => <Landing />;
+const Home = props => <p>test</p>;
 
 export default Home;

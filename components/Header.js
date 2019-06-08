@@ -4,7 +4,6 @@ import Nav from './Nav';
 
 const StyledHeader = styled.header`
 	width: 100%;
-	position: absolute;
 	border-bottom: 5px solid ${props => props.theme.primaryColor};
 	color: white;
 	display: flex;
