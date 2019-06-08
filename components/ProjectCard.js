@@ -24,6 +24,9 @@ const Card = styled.div`
     }
     p {
       flex-grow: 1;
+      padding: 2rem;
+      font-size: 1.8rem;
+      text-align: center;
     }
     .buttons {
       width: 100%;
@@ -39,18 +42,26 @@ const Card = styled.div`
         text-align: center;
 
       }
+      :hover {
+        background: rgba(236, 240, 241, 0.8);
+      }
     }
 	}
 `;
 
-const ProjectCard = ({ project }) => (
+const ProjectCard = props => (
 	<Card>
-		<img src={project.image} alt="" />
+		<img
+			src={props.project.image}
+			alt=""
+			onMouseOver={props.showPreview}
+			onMouseLeave={props.hidePreview}
+		/>
 		<div className="content">
-			<h1>{project.name}</h1>
-			<p>{project.description}</p>
+			<h1>{props.project.name}</h1>
+			<p>{props.project.description}</p>
 			<div className="buttons">
-				<Link href={project.git_url}>
+				<Link href={props.project.git_url}>
 					<a target="_blank">View on GitHub</a>
 				</Link>
 			</div>

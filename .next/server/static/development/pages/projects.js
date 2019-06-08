@@ -113,7 +113,7 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/maxeuler/Desktop/SoftwareDev/portfolio/components/ProjectCard.js";
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\tborder-radius: 4px;\n\theight: 600px;\n\tbackground: rgba(236, 240, 241, 0.7);\n\timg {\n\t\twidth: 100%;\n    height: 50%\n\t\tobject-fit: cover;\n\t}\n\t.content {\n\t\twidth: 100%;\n    display: flex;\n    flex-direction: column;\n    position: relative;\n    height: 50%;\n    h1 {\n      text-align: center;\n      font-weight: 300;\n      font-size: 3rem;\n    }\n    p {\n      flex-grow: 1;\n    }\n    .buttons {\n      width: 100%;\n      border-top: 1px solid #000;\n      display: grid;\n      grid-template-columns: 1fr;\n      bottom: 0;\n      a {\n        text-decoration: none;\n        color: #000;\n        font-size: 2rem;\n        padding: 1.5rem 0;\n        text-align: center;\n\n      }\n    }\n\t}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\tborder-radius: 4px;\n\theight: 600px;\n\tbackground: rgba(236, 240, 241, 0.7);\n\timg {\n\t\twidth: 100%;\n    height: 50%\n\t\tobject-fit: cover;\n\t}\n\t.content {\n\t\twidth: 100%;\n    display: flex;\n    flex-direction: column;\n    position: relative;\n    height: 50%;\n    h1 {\n      text-align: center;\n      font-weight: 300;\n      font-size: 3rem;\n    }\n    p {\n      flex-grow: 1;\n      padding: 2rem;\n      font-size: 1.8rem;\n      text-align: center;\n    }\n    .buttons {\n      width: 100%;\n      border-top: 1px solid #000;\n      display: grid;\n      grid-template-columns: 1fr;\n      bottom: 0;\n      a {\n        text-decoration: none;\n        color: #000;\n        font-size: 2rem;\n        padding: 1.5rem 0;\n        text-align: center;\n\n      }\n      :hover {\n        background: rgba(236, 240, 241, 0.8);\n      }\n    }\n\t}\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -127,60 +127,61 @@ function _templateObject() {
 
 var Card = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div(_templateObject());
 
-var ProjectCard = function ProjectCard(_ref) {
-  var project = _ref.project;
+var ProjectCard = function ProjectCard(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Card, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 53
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: project.image,
+    src: props.project.image,
     alt: "",
+    onMouseOver: props.showPreview,
+    onMouseLeave: props.hidePreview,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 54
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "content",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 60
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 61
     },
     __self: this
-  }, project.name), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, props.project.name), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 62
     },
     __self: this
-  }, project.description), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  }, props.project.description), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "buttons",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 63
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    href: project.git_url,
+    href: props.project.git_url,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 64
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 65
     },
     __self: this
   }, "View on GitHub")))));
@@ -232,7 +233,7 @@ var _static_projects_json__WEBPACK_IMPORTED_MODULE_14___namespace = /*#__PURE__*
 var _jsxFileName = "/Users/maxeuler/Desktop/SoftwareDev/portfolio/components/ProjectList.js";
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_9__["default"])(["\n\tdisplay: grid;\n\tgrid-template-columns: 1fr 1fr;\n\tgrid-gap: 60px;\n\tmargin: 2rem 0;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_9__["default"])(["\n\tdisplay: grid;\n\tgrid-template-columns: 1fr 1fr;\n\tgrid-gap: 60px;\n\tmargin: 4rem 0;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -270,6 +271,8 @@ function (_Component) {
       projects: []
     });
 
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_8__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "s", void 0);
+
     return _this;
   }
 
@@ -304,22 +307,26 @@ function (_Component) {
   }, {
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(Projects, {
+      var _this2 = this;
+
+      return react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_10___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(Projects, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 27
         },
         __self: this
       }, this.state.projects.map(function (project) {
         return react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_ProjectCard__WEBPACK_IMPORTED_MODULE_13__["default"], {
           project: project,
+          showPreview: _this2.showPreview,
+          hidePreview: _this2.showPreview,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 26
+            lineNumber: 29
           },
           __self: this
         });
-      }));
+      })));
     }
   }]);
 

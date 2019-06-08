@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import Link from 'next/link';
 
-const Title = styled.h1`
+export const Title = styled.h1`
 	color: white;
 	font-size: 7rem;
 	font-weight: 300;
@@ -35,7 +36,11 @@ const Landing = props => (
 		<Title>Max Euler</Title>
 		<Subtitle>Full Stack Developer</Subtitle>
 		<Subtitle>
-			<SmallButton>View Projects</SmallButton>
+			<Link href="/projects">
+				<a>
+					<SmallButton>View Projects</SmallButton>
+				</a>
+			</Link>
 		</Subtitle>
 	</div>
 );

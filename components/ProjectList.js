@@ -8,7 +8,7 @@ const Projects = styled.div`
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 60px;
-	margin: 2rem 0;
+	margin: 4rem 0;
 `;
 
 class ProjectList extends Component {
@@ -19,13 +19,21 @@ class ProjectList extends Component {
 	async componentDidMount() {
 		this.setState({ projects });
 	}
+
+	s;
 	render() {
 		return (
-			<Projects>
-				{this.state.projects.map(project => (
-					<ProjectCard project={project} />
-				))}
-			</Projects>
+			<>
+				<Projects>
+					{this.state.projects.map(project => (
+						<ProjectCard
+							project={project}
+							showPreview={this.showPreview}
+							hidePreview={this.showPreview}
+						/>
+					))}
+				</Projects>
+			</>
 		);
 	}
 }
