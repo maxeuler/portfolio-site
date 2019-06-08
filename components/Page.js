@@ -16,9 +16,8 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     height: 100%;
     font-family: sans-serif;
-    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('../static/la3.jpg');
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('../static/landing.jpg');
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover; 
   }
 `;

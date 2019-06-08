@@ -1,0 +1,26 @@
+[
+	{
+		"name": "borrow-it",
+		"description": "loref  sjb sdvb sjmv iusv iwsudvewh uiwskv wkesv weisvubwm",
+		"git_url": "https://github.com/maxeuler/borrow-it",
+		"image": "./static/borrow-it.png"
+	},
+	{
+		"name": "make-progress",
+		"description": "loref  sjb sdvb sjmv iusv iwsudvewh uiwskv wkesv weisvubwm",
+		"git_url": "https://github.com/maxeuler/make-progress",
+		"image": "./static/make-progress.png"
+	},
+	{
+		"name": "notes-application",
+		"description": "loref  sjb sdvb sjmv iusv iwsudvewh uiwskv wkesv weisvubwm",
+		"git_url": "https://github.com/maxeuler/MERN-Notes-Application",
+		"image": "./static/notes.png"
+	},
+	{
+		"name": "todo-application",
+		"description": "loref  sjb sdvb sjmv iusv iwsudvewh uiwskv wkesv weisvubwm",
+		"git_url": "https://github.com/maxeuler/MERN-TODO-Application",
+		"image": "./static/todo.png"
+	}
+]

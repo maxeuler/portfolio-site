@@ -325,7 +325,7 @@ var Nav = function Nav(props) {
     },
     __self: this
   }, "Home")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/work",
+    href: "/projects",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
@@ -399,7 +399,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  html {\n    font-size: 10px;\n    height: 100%;\n    box-sizing: border-box;\n  }\n  *, *:before, *:after {\n    box-sizing: inherit;\n  }\n  body {\n    margin: 0;\n    padding: 0;\n    height: 100%;\n    font-family: sans-serif;\n    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('../static/la3.jpg');\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: cover; \n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  html {\n    font-size: 10px;\n    height: 100%;\n    box-sizing: border-box;\n  }\n  *, *:before, *:after {\n    box-sizing: inherit;\n  }\n  body {\n    margin: 0;\n    padding: 0;\n    height: 100%;\n    font-family: sans-serif;\n    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('../static/landing.jpg');\n    background-position: center;\n    background-size: cover; \n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -423,25 +423,25 @@ var Page = function Page(props) {
     theme: theme,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 36
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(GlobalStyle, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 38
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 39
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Inner, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 40
     },
     __self: this
   }, props.children)));
