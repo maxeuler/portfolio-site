@@ -23,8 +23,14 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
+const Inner = styled.div`
+	max-width: 1300px;
+	margin: 0 auto;
+`;
+
 const theme = {
-	primaryColor: '#f1c40f'
+	primaryColor: '#f1c40f',
+	hover: '#bdc3c7'
 };
 
 const Page = props => (
@@ -32,7 +38,7 @@ const Page = props => (
 		<>
 			<GlobalStyle />
 			<Header />
-			{props.children}
+			<Inner>{props.children}</Inner>
 		</>
 	</ThemeProvider>
 );

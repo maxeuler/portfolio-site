@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import Link from 'next/link';
 import Nav from './Nav';
+import { Subtitle } from './Landing';
 
 const StyledHeader = styled.header`
 	width: 100%;
@@ -8,13 +10,21 @@ const StyledHeader = styled.header`
 	color: white;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	padding: 1rem 2rem;
 	font-size: 2rem;
+	a {
+		text-decoration: none;
+	}
 `;
 
 const Header = props => (
 	<StyledHeader>
-		<h3>Max Euler</h3>
+		<Link href="/">
+			<a>
+				<Subtitle>Max Euler</Subtitle>
+			</a>
+		</Link>
 		<Nav />
 	</StyledHeader>
 );

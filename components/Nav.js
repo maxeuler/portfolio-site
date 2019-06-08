@@ -10,13 +10,20 @@ const NavBar = styled.ul`
 		text-decoration: none;
 		color: white;
 		padding: 1rem 3rem;
+		:hover {
+			color: ${props => props.theme.hover};
+			font-style: italic;
+		}
 	}
 `;
 
 const Nav = props => (
 	<NavBar>
+		<Link href="/">
+			<a>Home</a>
+		</Link>
 		<Link href="/work">
-			<a>Work</a>
+			<a>Projects</a>
 		</Link>
 		<Link href="/about">
 			<a>About</a>
