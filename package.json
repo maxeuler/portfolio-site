@@ -1,0 +1,17 @@
+{
+	"name": "portfolio",
+	"version": "1.0.0",
+	"description": "my portfolio",
+	"main": "index.js",
+	"scripts": {
+		"dev": "next -p 7777"
+	},
+	"author": "Max Euler",
+	"license": "ISC",
+	"dependencies": {
+		"next": "^8.1.0",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6",
+		"styled-components": "^4.3.1"
+	}
+}
