@@ -6,6 +6,7 @@ const NavBar = styled.ul`
 	display: flex;
 	list-style: none;
 	justify-self: end;
+	justify-content: center;
 	a {
 		text-decoration: none;
 		color: white;
@@ -13,6 +14,15 @@ const NavBar = styled.ul`
 		:hover {
 			color: ${props => props.theme.hover};
 			font-style: italic;
+		}
+	}
+	@media (max-width: 700px) {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		justify-self: center;
+		a {
+			padding: 1rem;
 		}
 	}
 `;

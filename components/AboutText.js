@@ -5,6 +5,7 @@ import { Title } from './Landing';
 const Text = styled.div`
 	color: #fff;
 	font-size: 2.3rem;
+	margin 1rem auto;
 	p {
 		text-align: center;
 	}
@@ -18,6 +19,9 @@ const Text = styled.div`
 		max-width: 700px;
 		margin: 0 auto;
 		line-height: 2;
+	}
+	@media (max-width: 700px) {
+		max-width: 500px;
 	}
 `;
 

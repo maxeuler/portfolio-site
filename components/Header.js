@@ -16,12 +16,17 @@ const StyledHeader = styled.header`
 	a {
 		text-decoration: none;
 	}
+	@media (max-width: 700px) {
+		.logo {
+			display: none;
+		}
+	}
 `;
 
 const Header = props => (
 	<StyledHeader>
 		<Link href="/">
-			<a>
+			<a className="logo">
 				<Subtitle>Max Euler</Subtitle>
 			</a>
 		</Link>

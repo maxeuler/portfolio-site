@@ -13189,7 +13189,7 @@ var Home = function Home(props) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!*******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmaxeuler%2FDesktop%2FSoftwareDev%2Fportfolio%2Fpages%2Findex.js ***!
   \*******************************************************************************************************************************************/
@@ -13212,5 +13212,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
