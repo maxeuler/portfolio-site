@@ -13,13 +13,13 @@
 	},
 	{
 		"name": "notes-application",
-		"description": "A small React notes apllication with NodeJS and MongoDB as the backend.",
+		"description": "A small React notes application with NodeJS and MongoDB as the backend.",
 		"git_url": "https://github.com/maxeuler/MERN-Notes-Application",
 		"image": "./static/notes.png"
 	},
 	{
 		"name": "todo-application",
-		"description": "Yes, there it is. The boring todo application. But everybody has to start somewhere. It is build with NodeJS, MongoDB and React.",
+		"description": "Yes, there it is. The boring todo application. But everybody has to start somewhere. It is built with NodeJS, MongoDB and React.",
 		"git_url": "https://github.com/maxeuler/MERN-TODO-Application",
 		"image": "./static/todo.png"
 	}

@@ -47,7 +47,7 @@ const AboutText = props => (
 			<li>
 				22 years old guy who is studying Computer Science at{' '}
 				<a href="https://www.mni.thm.de/" target="_blank">
-					Teschnische Hochschule Mittelhessen
+					Technische Hochschule Mittelhessen
 				</a>
 			</li>
 			<li>In love with JavaScript</li>

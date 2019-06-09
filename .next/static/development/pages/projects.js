@@ -15300,7 +15300,7 @@ module.exports = [{"name":"borrow-it","description":"An online platform to lend 
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /*!******************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fprojects&absolutePagePath=%2FUsers%2Fmaxeuler%2FDesktop%2FSoftwareDev%2Fportfolio%2Fpages%2Fprojects.js ***!
   \******************************************************************************************************************************************************/
@@ -15323,5 +15323,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=projects.js.map
