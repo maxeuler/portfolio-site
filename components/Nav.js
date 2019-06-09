@@ -32,13 +32,13 @@ const Nav = props => (
 		<Link href="/">
 			<a>Home</a>
 		</Link>
-		<Link href="/projects">
+		<Link href="/projects" prefetch>
 			<a>Projects</a>
 		</Link>
 		<Link href="/about">
 			<a>About</a>
 		</Link>
-		<Link href="/contact">
+		<Link href="/contact" prefetch>
 			<a>Contact</a>
 		</Link>
 	</NavBar>

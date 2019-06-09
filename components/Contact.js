@@ -7,8 +7,9 @@ const ContactBar = styled.div`
 	display: flex;
 	justify-content: space-between;
 	margin: 4rem;
+	max-width: 1200px;
 	img {
-		height: 300px;
+		height: 200px;
 	}
 	@media (max-width: 1200px) {
 		img {
@@ -17,9 +18,17 @@ const ContactBar = styled.div`
 	}
 	@media (max-width: 800px) {
 		img {
-			height: 100px;
+			height: 150px;
 		}
-		margin: 8rem;
+	}
+	@media (max-width: 600px) {
+		flex-direction: column;
+		height: 50vh;
+		align-items: center;
+		img {
+			height: 80px;
+		}
+		margin: 4rem;
 	}
 `;
 

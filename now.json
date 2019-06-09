@@ -1,0 +1,6 @@
+{
+	"version": 2,
+	"alias": "my-website",
+	"name": "portfolio.maxeuler",
+	"builds": [{ "src": "next.config.js", "use": "@now/next" }]
+}

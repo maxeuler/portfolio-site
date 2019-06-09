@@ -21,24 +21,39 @@ const Text = styled.div`
 		line-height: 2;
 	}
 	@media (max-width: 700px) {
-		max-width: 500px;
+		font-size: 2rem;
+		margin: 0;
+		height: 100%;
+		p {
+			width: 100%;
+			margin: 2rem auto;
+			line-height: 1.5;
+			max-width: 250px;
+		}
+		ul {
+			font-size: 1.5rem;
+			list-style: none;
+			max-width: 300px;
+			line-height: 2;
+		}
 	}
 `;
 
 const AboutText = props => (
 	<Text>
 		<Title>Who Am I?</Title>
-		<p>Nobody wants to read long texts, so just the facts:</p>
+		<p>Nobody wants to read a long text, so just the facts:</p>
 		<ul>
 			<li>
-				Studying Computer Science at{' '}
-				<a href="https://www.mni.thm.de/">
+				22 years old guy who is studying Computer Science at{' '}
+				<a href="https://www.mni.thm.de/" target="_blank">
 					Teschnische Hochschule Mittelhessen
 				</a>
 			</li>
 			<li>In love with JavaScript</li>
 			<li>Working as a Salesforce Developer</li>
 			<li>Node, React, MongoDB and GraphQL is what I'm learning everyday</li>
+			<li>Only at the beginning, but on the right way</li>
 		</ul>
 	</Text>
 );

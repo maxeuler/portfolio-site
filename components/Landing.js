@@ -7,6 +7,9 @@ export const Title = styled.h1`
 	font-size: 7rem;
 	font-weight: 300;
 	text-align: center;
+	@media (max-width: 700px) {
+		font-size: 5rem;
+	}
 `;
 
 export const Subtitle = styled.h1`
@@ -14,6 +17,11 @@ export const Subtitle = styled.h1`
 	font-size: 2.5rem;
 	font-weight: 300;
 	text-align: center;
+	img {
+		height: 60px;
+		margin: 0 2rem;
+		opacity: 0.7;
+	}
 `;
 
 const SmallButton = styled.button`
@@ -41,6 +49,14 @@ const Landing = props => (
 					<SmallButton>View Projects</SmallButton>
 				</a>
 			</Link>
+		</Subtitle>
+		<Subtitle>
+			<a href="https://www.xing.com/profile/Max_Euler4/cv" target="_blank">
+				<img src="./static/xing.png" alt="" />
+			</a>
+			<a href="https://github.com/maxeuler" target="_blank">
+				<img src="./static/github.png" alt="" />
+			</a>
 		</Subtitle>
 	</div>
 );

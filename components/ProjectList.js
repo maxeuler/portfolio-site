@@ -9,7 +9,7 @@ const Projects = styled.div`
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 60px;
 	margin: 4rem 2rem;
-	@media (max-width: 700px) {
+	@media (max-width: 1200px) {
 		grid-template-columns: 1fr;
 	}
 `;
@@ -30,6 +30,7 @@ class ProjectList extends Component {
 				<Projects>
 					{this.state.projects.map(project => (
 						<ProjectCard
+							key={project.git_url}
 							project={project}
 							showPreview={this.showPreview}
 							hidePreview={this.showPreview}
